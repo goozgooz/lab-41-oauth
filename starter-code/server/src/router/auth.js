@@ -32,7 +32,7 @@ export default new Router()
           .set('Authorization', `Bearer ${accessToken}`)
       })
       .then( res => {
-        console.log('__OPENID INF0__', res.body);
+        return User.googleSignUp(res.body)
       })
       .catch( err => {
         console.log(err.message);
