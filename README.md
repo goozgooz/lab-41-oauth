@@ -7,8 +7,9 @@
   * setup .env filed (read below)
   * run `npm run mongo-on` to turn on mongo
   * run `npm watch` to get server running
-  * get a live-server going in client directory
+  * get a live-server going in client directory. 
   * have the terminal running the server open to see logs / see things work
+  * click link on localhost://8080
   
 
 
